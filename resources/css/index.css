@@ -1,0 +1,161 @@
+html, body {
+
+margin: 0;
+padding: 0
+
+
+}
+
+body {
+
+color:seashell;
+background-color:black;
+font-family:Helvetica;
+font-size: 22px;
+opacity: 0.9;
+text-align: center;
+
+}
+
+.nav {
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
+height:59px;
+padding: 10px;
+position: fixed;
+border-bottom: 1px solid seashell;
+left:0;
+right:0;
+background-color: black;
+
+}
+
+.nav img{
+
+height: 50px;
+width: auto;
+
+}
+
+.nav ol li {
+
+  display: inline;
+  text-decoration: underline;
+  color: seashell;
+
+}
+
+a {
+  color: seashell;
+  margin: 0;
+}
+
+
+#mission{
+display:flex;
+margin-top: 70;
+align-items:center;
+justify-content:center;
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+height: 700px;
+width: 1200px;
+margin: 0 auto;
+}
+
+.missionStatement{
+
+color: seashell;
+background-color: black;
+width: 100%;
+
+}
+
+
+#teaofmonth {
+
+width: 1000px;
+margin: 50px auto;
+text-align: center;
+
+}
+
+#firstset, #secondset, #firstsettext, #secondsettext{
+
+display:inline-flex;
+width: 100%;
+justify-content: center;
+
+
+}
+
+.teapics img{
+display: inline-flex;
+height: 200px;
+width: 300px;
+margin: 10px;
+
+ }
+
+.teapics p {
+  font-weight: bold;
+  width: 300px;
+  text-align:center;
+  margin: 10px;
+}
+
+
+
+
+#location {
+
+display: block;
+height: 500px;
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+flex-wrap: wrap;
+padding-top:70px;
+width: 1200px;
+margin: 0 auto;
+
+}
+#location span h2{
+font-weight: bold;
+
+
+}
+.location {
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+.address{
+display: flex;
+
+flex-direction: column;
+opacity: 1;
+margin: 5px 20px;
+padding: 10px;
+background-color: black;
+width: 300px;
+height: auto;
+}
+
+
+.footer {
+margin: 0;
+height: 200px;
+}
+
+
+
+.copyright {
+
+margin-left: 2px;
+text-align: left;
+}
